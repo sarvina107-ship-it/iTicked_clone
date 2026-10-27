@@ -1,0 +1,19 @@
+{
+  "name": "iticket-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot clone of iTicket.uz for events & concert ticket booking with QR codes and Admin panel",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["telegram-bot", "iticket", "tickets", "booking", "telegraf", "uzbekistan"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "qrcode": "^1.5.4",
+    "telegraf": "^4.16.3"
+  }
+}
